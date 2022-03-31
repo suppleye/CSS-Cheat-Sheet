@@ -105,3 +105,28 @@ a:visited{
     border-bottom: dotted 1px black;
     list-style-image: url('../images/check.png');
 }
+
+.my-form{
+    padding: 20px;   
+}
+
+my-form .form-group{
+    padding: 10px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #ccc;
+    padding: 10px 15px;
+    border: none;
+
+}
