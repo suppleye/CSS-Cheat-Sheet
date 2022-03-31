@@ -19,6 +19,23 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+
+a:visited{
+    color: black;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -64,4 +81,25 @@ body{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px 0;
+}
+
+.categories{
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px black;
 }
