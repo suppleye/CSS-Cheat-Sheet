@@ -33,12 +33,24 @@ a:active{
 }
 
 a:visited{
-    color: black;
+    
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #ccc;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: green;
+    color: aqua;
 }
 
 .box-1{
@@ -123,10 +135,18 @@ my-form .form-group{
     width: 100%;
 }
 
-.my-form input[type="submit"]{
+.button{
     background-color: #333;
     color: #ccc;
     padding: 10px 15px;
     border: none;
 
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
 }
