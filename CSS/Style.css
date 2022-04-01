@@ -48,6 +48,10 @@ a:visited{
     border: none;
 }
 
+.clr{
+    clear: both;
+}
+
 .button:hover{
     background: green;
     color: aqua;
@@ -122,7 +126,7 @@ a:visited{
     padding: 20px;   
 }
 
-my-form .form-group{
+.my-form .form-group{
     padding: 10px;
 }
 
@@ -149,4 +153,9 @@ my-form .form-group{
     border: 1px solid;
     padding: 10px;
     box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
 }
